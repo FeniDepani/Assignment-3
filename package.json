@@ -1,0 +1,32 @@
+{
+  "name": "cs648_assignment3",
+  "version": "1.0.0",
+  "description": "This is an assignment 3 of CS-648 - Simple inventory management system with graphql",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w server -e js,graphql server/server.js",
+    "watch": "babel src --presets @babel/react --out-dir public --watch --verbose",
+    "compile": "babel src --presets @babel/react --out-dir public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FeniDepani"
+  },
+  "author": "Fenikumari Kiritbhai Depani",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.21.0",
+    "babel-watch": "^7.4.0",
+    "express": "^4.17.1",
+    "graphql": "^0.13.2",
+    "nodemon": "^2.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.16",
+    "@babel/core": "^7.12.16",
+    "@babel/preset-react": "^7.12.13"
+  }
+}

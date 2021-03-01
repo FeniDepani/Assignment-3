@@ -1,0 +1,56 @@
+.form_heading { 
+    margin-top:20px; 
+    padding-left: 20px;
+}
+
+.main_div{
+    margin: 100px;
+}
+
+.bordered-table th, td {
+    border: 1px solid silver; 
+    padding: 4px;
+}
+.bordered-table {
+    border-collapse: collapse;
+    margin-left: 20px;
+}
+.colmn-width {
+  table-layout: fixed;
+  width: 100%;  
+}
+
+.hidden{
+	visibility:hidden;
+}
+
+h1{
+    padding-left: 20px;
+}
+
+.table_heading{
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+hr{
+    padding-left: 20px;
+    border: 0.5px solid black;
+}
+.form_heading{
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.col-sm-6{
+    width: 35%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+label{
+    margin-top:5px;
+}
